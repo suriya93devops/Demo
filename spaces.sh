@@ -8,4 +8,3 @@ do
     echo "Running out of space \"$partition ($usep%)\" on $(hostname) as on $(date)" |
      mail -s "Alert: Almost out of disk space $usep%" suriya20july@gmail.com
   fi
-done
