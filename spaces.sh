@@ -1,2 +1,2 @@
 #! /bin/bash
-df -h
+/bin/df -h | grep -vE 'Filesystem|tmpfs'
